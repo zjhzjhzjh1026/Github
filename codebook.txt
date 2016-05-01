@@ -1,0 +1,13 @@
+train.x £ºthe trainx data
+train.y £ºthe trainy data
+test.x: the testx data
+test.y: the testy data
+trainData £ºmerge all the train data including train.y&train.x
+testData £ºmerge all the test data including test.y&test.x
+fullData : merge all train data and test data
+featureName: all the feature name
+featureIndex: index used for extract mean and standard deviation of each measurements
+finalData: the final extracted data
+colnames(finalData): the colnames of finaldata
+activityName: all the activity name
+groupData: group the final data by  the average of each variable for each activity and each subject
